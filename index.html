@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Minha Princesa ❤️</title>
+    <title>Para Minha Neguinha 💜 </title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
         
@@ -11,18 +11,18 @@
             --primary-black: #0a0a0a;
             --secondary-black: #1a1a1a;
             --card-black: #111111;
-            --accent-red: #ff0040;
-            --deep-red: #cc0033;
-            --dark-red: #990026;
-            --neon-red: #ff1744;
+            --accent-red: #9b30ff;
+            --deep-red: #6a0dad;
+            --dark-red: #4b0082;
+            --neon-red: #b026ff;
             --gold: #ffd700;
             --silver: #c0c0c0;
             --white: #ffffff;
             --glass-bg: rgba(17, 17, 17, 0.8);
-            --glass-border: rgba(255, 0, 64, 0.3);
+            --glass-border: rgba(155, 48, 255, 0.3);
             
             /* Variável para o nome - MUDE AQUI! */
-            --girlfriend-name: "Vanessa"; /* ← COLOQUE O NOME AQUI */
+            --girlfriend-name: "Amanda"; /* ← COLOQUE O NOME AQUI */
         }
 
         * {
@@ -33,7 +33,7 @@
 
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, var(--primary-black) 0%, var(--secondary-black) 50%, #2a0a0a 100%);
+            background: linear-gradient(135deg, var(--primary-black) 0%, var(--secondary-black) 50%, #1a0a2a 100%);
             min-height: 100vh;
             overflow-x: hidden;
             position: relative;
@@ -58,13 +58,13 @@
             position: fixed;
             width: 6px;
             height: 6px;
-            background: rgba(255, 0, 64, 0.6);
+            background: rgba(155, 48, 255, 0.6);
             border-radius: 50%;
             pointer-events: none;
             z-index: 9998;
         }
 
-        /* Partículas vermelhas */
+        /* Partículas roxas */
         .particles {
             position: fixed;
             top: 0;
@@ -99,9 +99,9 @@
             width: 100%;
             height: 100%;
             background: 
-                radial-gradient(circle at 20% 50%, rgba(255, 0, 64, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(204, 0, 51, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 40% 80%, rgba(153, 0, 38, 0.1) 0%, transparent 50%);
+                radial-gradient(circle at 20% 50%, rgba(155, 48, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(106, 13, 173, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(75, 0, 130, 0.1) 0%, transparent 50%);
             animation: wave-move 10s ease-in-out infinite;
             z-index: 2;
         }
@@ -200,10 +200,10 @@
             margin: 40px 0;
             box-shadow: 
                 0 20px 60px rgba(0, 0, 0, 0.8),
-                inset 0 1px 0 rgba(255, 0, 64, 0.3),
-                0 0 40px rgba(255, 0, 64, 0.15),
+                inset 0 1px 0 rgba(155, 48, 255, 0.3),
+                0 0 40px rgba(155, 48, 255, 0.15),
                 inset 0 -1px 0 rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 0, 64, 0.4);
+            border: 1px solid rgba(155, 48, 255, 0.4);
             animation: card-float 8s ease-in-out infinite;
             text-align: center;
             position: relative;
@@ -214,10 +214,10 @@
             transform: translateY(-5px) scale(1.01);
             box-shadow: 
                 0 30px 80px rgba(0, 0, 0, 0.9),
-                inset 0 1px 0 rgba(255, 0, 64, 0.4),
-                0 0 60px rgba(255, 0, 64, 0.25),
+                inset 0 1px 0 rgba(155, 48, 255, 0.4),
+                0 0 60px rgba(155, 48, 255, 0.25),
                 inset 0 -1px 0 rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 0, 64, 0.6);
+            border-color: rgba(155, 48, 255, 0.6);
         }
 
         @keyframes card-float {
@@ -233,10 +233,10 @@
             right: 0;
             bottom: 0;
             background: linear-gradient(135deg, 
-                rgba(255, 0, 64, 0.1) 0%, 
+                rgba(155, 48, 255, 0.1) 0%, 
                 transparent 30%, 
                 transparent 70%, 
-                rgba(255, 0, 64, 0.1) 100%);
+                rgba(155, 48, 255, 0.1) 100%);
             border-radius: 25px;
             z-index: -1;
             animation: subtle-glow 6s ease-in-out infinite alternate;
@@ -275,7 +275,7 @@
 
         @keyframes message-glow {
             0% { text-shadow: 0 0 10px rgba(192, 192, 192, 0.3); }
-            100% { text-shadow: 0 0 20px rgba(192, 192, 192, 0.6), 0 0 30px rgba(255, 0, 64, 0.2); }
+            100% { text-shadow: 0 0 20px rgba(192, 192, 192, 0.6), 0 0 30px rgba(155, 48, 255, 0.2); }
         }
 
         /* Botão dark theme */
@@ -293,7 +293,7 @@
             transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             margin: 40px 0;
             box-shadow: 
-                0 15px 35px rgba(255, 0, 64, 0.4),
+                0 15px 35px rgba(155, 48, 255, 0.4),
                 inset 0 1px 0 rgba(255, 255, 255, 0.2);
             animation: btn-pulse 3s ease-in-out infinite;
             border: 2px solid var(--neon-red);
@@ -317,13 +317,13 @@
         .surprise-btn:hover {
             transform: translateY(-5px) scale(1.05);
             box-shadow: 
-                0 25px 50px rgba(255, 0, 64, 0.6),
+                0 25px 50px rgba(155, 48, 255, 0.6),
                 0 0 30px var(--gold);
         }
 
         @keyframes btn-pulse {
-            0%, 100% { box-shadow: 0 15px 35px rgba(255, 0, 64, 0.4); }
-            50% { box-shadow: 0 15px 35px rgba(255, 0, 64, 0.6), 0 0 20px var(--gold); }
+            0%, 100% { box-shadow: 0 15px 35px rgba(155, 48, 255, 0.4); }
+            50% { box-shadow: 0 15px 35px rgba(155, 48, 255, 0.6), 0 0 20px var(--gold); }
         }
 
         /* Galeria de fotos - 3 por linha mobile-first */
@@ -345,13 +345,13 @@
             padding: 8px;
             box-shadow: 
                 0 15px 35px rgba(0, 0, 0, 0.8),
-                inset 0 1px 0 rgba(255, 0, 64, 0.3),
-                0 0 25px rgba(255, 0, 64, 0.1);
+                inset 0 1px 0 rgba(155, 48, 255, 0.3),
+                0 0 25px rgba(155, 48, 255, 0.1);
             position: relative;
             overflow: hidden;
             transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
             animation: frame-float 5s ease-in-out infinite;
-            border: 1px solid rgba(255, 0, 64, 0.4);
+            border: 1px solid rgba(155, 48, 255, 0.4);
         }
 
         .photo-frame:nth-child(1) { animation-delay: 0s; }
@@ -383,9 +383,9 @@
             right: 0;
             bottom: 0;
             background: linear-gradient(135deg, 
-                rgba(255, 0, 64, 0.2) 0%, 
+                rgba(155, 48, 255, 0.2) 0%, 
                 transparent 50%, 
-                rgba(255, 0, 64, 0.2) 100%);
+                rgba(155, 48, 255, 0.2) 100%);
             border-radius: 20px;
             opacity: 0;
             transition: all 0.4s ease;
@@ -406,9 +406,9 @@
             transform: translateY(-10px) scale(1.05);
             box-shadow: 
                 0 25px 50px rgba(0, 0, 0, 0.9),
-                0 0 40px rgba(255, 0, 64, 0.4),
-                inset 0 1px 0 rgba(255, 0, 64, 0.5);
-            border-color: rgba(255, 0, 64, 0.8);
+                0 0 40px rgba(155, 48, 255, 0.4),
+                inset 0 1px 0 rgba(155, 48, 255, 0.5);
+            border-color: rgba(155, 48, 255, 0.8);
         }
 
         .photo-frame:hover img {
@@ -462,7 +462,7 @@
             height: 100%;
             background: linear-gradient(90deg, 
                 transparent, 
-                rgba(255, 0, 64, 0.1), 
+                rgba(155, 48, 255, 0.1), 
                 rgba(255, 215, 0, 0.1), 
                 transparent);
             animation: message-wave 4s ease-in-out infinite;
@@ -478,7 +478,7 @@
             transform: translateY(0) scale(1);
             box-shadow: 
                 0 25px 50px rgba(0, 0, 0, 0.7),
-                0 0 40px rgba(255, 0, 64, 0.2);
+                0 0 40px rgba(155, 48, 255, 0.2);
         }
 
         .special-message h3 {
@@ -723,15 +723,15 @@
     <div class="container">
         <header class="header">
             <h1>Para Minha <span class="girlfriend-name"></span></h1>
-            <p>Uma declaração de amor criada especialmente para você ❤️</p>
+            <p>Uma declaração de amor criada especialmente para você 💜 </p>
         </header>
 
         <main class="love-card">
-            <h2>Minha Alma Gêmea 💕</h2>
+            <h2>Minha neguinha 💜 </h2>
             <div class="love-message">
-                <p><span class="girlfriend-name"></span>, você é a razão do meu despertar feliz e o último pensamento antes de dormir. Desde que você chegou na minha vida, cada dia se tornou mais colorido, mais doce, mais completo.</p>
+                <p><span class="girlfriend-name"></span>, voce é a garota mais perfeita que existe e sinceramente é a princesa dos meus sonhos.</p>
                 <br>
-                <p>Você é minha melodia favorita, meu porto seguro, minha inspiração diária. Com você descobri que o amor verdadeiro não é apenas um sentimento, é um lar, é paz, é a certeza de que encontrei minha pessoa para sempre! ❤️</p>
+                <p>Você é a minha inspiração pras coisas e a pessoa mais importante para mim, pois vc me ensinou oque significa amar alguem 💜 </p>
             </div>
 
             <button class="surprise-btn" onclick="showSurprise()">
@@ -739,10 +739,13 @@
             </button>
 
             <div class="special-message" id="specialMessage">
-                <h3>💖 Do Fundo Do Meu Coração 💖</h3>
+                <h3>💜  Do Fundo Do Meu Coração 💜 </h3>
                 <p><span class="girlfriend-name"></span>, você é o presente mais lindo que a vida me deu. Cada sorriso seu ilumina meu mundo, cada abraço seu me faz sentir em casa, cada "eu te amo" seu é música para minha alma.</p>
                 <br>
-                <p>Obrigado(a) por ser minha companheira de sonhos, minha parceira de vida, minha melhor amiga e meu grande amor. Neste Dia dos Namorados, quero que saiba: você é tudo que sempre sonhei e muito mais! 💝</p>
+                <p>Do nada, só queria te lembrar que você é minha companheira de sonhos, minha parceira de vida, minha melhor amiga e, infelizmente pra você, a pessoa que vai ter que me aguentar por muitos e muitos anos 😂💜. Você é tudo que eu sempre sonhei e muito mais, e sinceramente, acho que até o Damon teve sorte demais quando encontrou a Elena, mas eu ainda dei mais sorte encontrando você KKKKK. 
+                    No meio de todas as loucuras, brigas, risadas e momentos aleatórios, eu escolheria você de novo e de novo, sem pensar duas vezes. Eu te amo, Amanda 💜 e espero que você saiba que, assim como Damon e Elena,
+                     a gente também tem aquela história meio caótica, intensa e completamente apaixonada, só que com menos vampiros e provavelmente mais discussões sobre onde vamos comer. 😂💜
+</p>
             </div>
         </main>
 
@@ -770,7 +773,7 @@
         <footer class="footer">
             <p>Criado com todo <span class="heart-beat">❤️</span> do universo</p>
             <p>Para a <span class="girlfriend-name"></span> mais especial do mundo! 💫</p>
-            <p>Feliz Dia dos Namorados, meu amor! 💑</p>
+            <p>Eu te amo minha neguinha, meu amor! 💑</p>
         </footer>
     </div>
 
@@ -794,7 +797,7 @@
             }
         });
 
-        // Partículas vermelhas
+        // Partículas roxas
         function createParticle() {
             const particle = document.createElement('div');
             particle.className = 'particle';
@@ -803,8 +806,8 @@
             particle.style.animationDelay = Math.random() * 2 + 's';
             
             const redColors = [
-                'rgba(255, 0, 64, 0.8)', 
-                'rgba(204, 0, 51, 0.8)', 
+                'rgba(155, 48, 255, 0.8)', 
+                'rgba(106, 13, 173, 0.8)', 
                 'rgba(255, 215, 0, 0.6)', 
                 'rgba(255, 255, 255, 0.4)'
             ];
@@ -822,7 +825,7 @@
             const message = document.getElementById('specialMessage');
             message.classList.add('show');
             
-            // Explosão de corações vermelhos
+            // Explosão de corações
             createHeartExplosion();
             
             // NOVA FUNÇÃO: Animação épica "TE AMO"
@@ -834,12 +837,12 @@
             }
             
             // Mudança temporária da cor de fundo
-            document.body.style.background = 'linear-gradient(135deg, #ff0040, #990026, #000000, #ff1744)';
+            document.body.style.background = 'linear-gradient(135deg, #9b30ff, #4b0082, #000000, #b026ff)';
             document.body.style.backgroundSize = '400% 400%';
             document.body.style.animation = 'gradient-shift 2s ease infinite';
             
             setTimeout(() => {
-                document.body.style.background = 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2a0a0a 100%)';
+                document.body.style.background = 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #1a0a2a 100%)';
                 document.body.style.animation = '';
             }, 4000);
             
@@ -873,7 +876,7 @@
                 transform: translate(-50%, -50%);
                 font-size: 4rem;
                 font-weight: bold;
-                background: linear-gradient(45deg, #ff0040, #ffd700, #ff0040);
+                background: linear-gradient(45deg, #9b30ff, #ffd700, #9b30ff);
                 background-size: 200% 200%;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -881,8 +884,8 @@
                 z-index: 9999;
                 pointer-events: none;
                 animation: te-amo-main 4s ease-out forwards;
-                text-shadow: 0 0 30px rgba(255, 0, 64, 0.8);
-                filter: drop-shadow(0 0 20px rgba(255, 0, 64, 1));
+                text-shadow: 0 0 30px rgba(155, 48, 255, 0.8);
+                filter: drop-shadow(0 0 20px rgba(155, 48, 255, 1));
             `;
             document.body.appendChild(mainTeAmo);
             setTimeout(() => mainTeAmo.remove(), 4000);
@@ -903,11 +906,11 @@
                         top: ${startY}px;
                         font-size: ${Math.random() * 2 + 1.5}rem;
                         font-weight: bold;
-                        color: ${Math.random() > 0.5 ? '#ff0040' : '#ffd700'};
+                        color: ${Math.random() > 0.5 ? '#9b30ff' : '#ffd700'};
                         z-index: 9998;
                         pointer-events: none;
                         animation: te-amo-float 3s ease-out forwards;
-                        text-shadow: 0 0 15px rgba(255, 0, 64, 0.8);
+                        text-shadow: 0 0 15px rgba(155, 48, 255, 0.8);
                         filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.6));
                     `;
                     document.body.appendChild(teAmo);
@@ -925,11 +928,11 @@
                         left: ${Math.random() * 100}%;
                         top: -50px;
                         font-size: 1.2rem;
-                        color: #ff0040;
+                        color: #9b30ff;
                         z-index: 9997;
                         pointer-events: none;
                         animation: te-amo-rain ${Math.random() * 3 + 2}s linear forwards;
-                        text-shadow: 0 0 10px rgba(255, 0, 64, 0.6);
+                        text-shadow: 0 0 10px rgba(155, 48, 255, 0.6);
                     `;
                     document.body.appendChild(miniTeAmo);
                     setTimeout(() => miniTeAmo.remove(), 5000);
@@ -944,7 +947,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: radial-gradient(circle, rgba(255, 0, 64, 0.1), transparent);
+                background: radial-gradient(circle, rgba(155, 48, 255, 0.1), transparent);
                 z-index: 9996;
                 pointer-events: none;
                 animation: love-pulse 2s ease-in-out;
@@ -953,7 +956,7 @@
             setTimeout(() => pulseOverlay.remove(), 2000);
         }
 
-        // Explosão de corações vermelhos
+        // Explosão de corações
         function createHeartExplosion() {
             const hearts = ['❤️', '💖', '💕', '💗', '💓', '💝', '♥️', '💘'];
             
@@ -964,7 +967,7 @@
                     heart.innerHTML = hearts[Math.floor(Math.random() * hearts.length)];
                     heart.style.left = Math.random() * window.innerWidth + 'px';
                     heart.style.top = Math.random() * window.innerHeight + 'px';
-                    heart.style.color = Math.random() > 0.5 ? '#ff0040' : '#ffd700';
+                    heart.style.color = Math.random() > 0.5 ? '#9b30ff' : '#ffd700';
                     document.body.appendChild(heart);
                     
                     setTimeout(() => heart.remove(), 2000);
@@ -995,14 +998,14 @@
                     transform: translate(-50%, -50%);
                     font-size: 3rem;
                     font-weight: bold;
-                    background: linear-gradient(45deg, #ff0040, #ffd700);
+                    background: linear-gradient(45deg, #9b30ff, #ffd700);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     background-clip: text;
                     z-index: 9999;
                     pointer-events: none;
                     animation: ultra-text 3s ease-out forwards;
-                    text-shadow: 0 0 20px rgba(255, 0, 64, 0.8);
+                    text-shadow: 0 0 20px rgba(155, 48, 255, 0.8);
                 `;
                 document.body.appendChild(text);
                 
@@ -1018,7 +1021,7 @@
                 }, 1000);
             }
             
-            // Efeito de clique vermelho
+            // Efeito de clique roxo
             const ripple = document.createElement('div');
             ripple.style.cssText = `
                 position: fixed;
@@ -1026,12 +1029,12 @@
                 top: ${e.clientY - 25}px;
                 width: 50px;
                 height: 50px;
-                border: 2px solid #ff0040;
+                border: 2px solid #9b30ff;
                 border-radius: 50%;
                 pointer-events: none;
                 z-index: 9999;
                 animation: ripple-effect 0.8s ease-out forwards;
-                box-shadow: 0 0 20px rgba(255, 0, 64, 0.6);
+                box-shadow: 0 0 20px rgba(155, 48, 255, 0.6);
             `;
             document.body.appendChild(ripple);
             setTimeout(() => ripple.remove(), 800);
@@ -1088,16 +1091,16 @@
                 position: fixed;
                 top: 20px;
                 right: 20px;
-                background: linear-gradient(45deg, #ff0040, #990026);
+                background: linear-gradient(45deg, #9b30ff, #4b0082);
                 color: white;
                 padding: 15px 25px;
                 border-radius: 25px;
                 font-weight: 600;
                 z-index: 9999;
-                box-shadow: 0 10px 30px rgba(255, 0, 64, 0.4);
+                box-shadow: 0 10px 30px rgba(155, 48, 255, 0.4);
                 animation: notification-slide 4s ease-in-out forwards;
                 backdrop-filter: blur(10px);
-                border: 1px solid rgba(255, 0, 64, 0.3);
+                border: 1px solid rgba(155, 48, 255, 0.3);
             `;
             
             document.body.appendChild(notification);
@@ -1116,11 +1119,11 @@
                 left: 20px;
                 width: 4px;
                 height: ${Math.random() * 50 + 10}px;
-                background: linear-gradient(to top, #ff0040, #ffd700);
+                background: linear-gradient(to top, #9b30ff, #ffd700);
                 border-radius: 2px;
                 animation: sound-wave 0.5s ease-in-out infinite alternate;
                 margin-right: 2px;
-                box-shadow: 0 0 10px rgba(255, 0, 64, 0.5);
+                box-shadow: 0 0 10px rgba(155, 48, 255, 0.5);
             `;
             
             const container = document.querySelector('.sound-visualizer') || createSoundContainer();
@@ -1194,7 +1197,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                background: linear-gradient(45deg, #ff0040, #990026);
+                background: linear-gradient(45deg, #9b30ff, #4b0082);
                 color: white;
                 padding: 20px 30px;
                 border-radius: 15px;
@@ -1203,7 +1206,7 @@
                 box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
                 animation: achievement-popup 3s ease-in-out forwards;
                 backdrop-filter: blur(10px);
-                border: 2px solid rgba(255, 0, 64, 0.3);
+                border: 2px solid rgba(155, 48, 255, 0.3);
             `;
             
             document.body.appendChild(achievement);
